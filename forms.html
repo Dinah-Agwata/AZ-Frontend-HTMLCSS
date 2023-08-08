@@ -5,32 +5,32 @@
         <body>
             <form>
                 <div>
-                <label for="fname">firstname:</label>
-                <input type="text"id="fname"name="fname" placeholder="Dinah"required>
+                <label for="fname">Firstname:</label>
+                <input type="text"id="fname"name="fname" required>
                 </div>
                 <div>
-                    <label for="lname">lastname:</label>
-                    <input type="text"id="lname"name="lname"placeholder="Agwata"required>
+                    <label for="lname">Lastname:</label>
+                    <input type="text"id="lname"name="lname"required>
                 </div>
                 <div>
-                    <label for="email">email</label>
-                    <input type="email"id="email"name="email"placeholder="dinahbagwata@gmail.com"required>
+                    <label for="email">Email</label>
+                    <input type="email"id="email"name="email"required>
                 </div>
                 <div>
-                    <label for="age">age</label>
+                    <label for="age">Age</label>
                     <input type="number"id="age"name="age"min="0"max="99"value="1">
                 </div>
                 <div>
-                    <label for="pnumber">phone number</label>
-                    <input type="number"id="pnumber"name="pnumber"placeholder="0701959181"required>
+                    <label for="pnumber">Phone number</label>
+                    <input type="number"id="pnumber"name="pnumber"required>
                 </div>
                 <div>
-                    <label for="dob">date of birth</label>
+                    <label for="dob">Date of birth</label>
                     <input type="date"id="dob"name="dob"placeholder="dd/mm/yyyy"required>
                 </div>
                 <div>
-                    <label for="country">country</label>
-                    <select id="country"name="country>
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
                         <option>Australia</option>
                         <option>Canada</option>
                         <option>Congo</option>
@@ -41,6 +41,40 @@
                         <option>Sweden</option>
                         <option>South-Africa</option>
                         </select> 
+                </div>
+                <div>
+                    <label for="gender">Male</label>
+                    <input type="radio"id="male"name="gender"value="male">
+                </div>
+                <div>
+                    <label for="gender">Female</label>
+                    <input type="radio"id="female"name="gender"value="female">
+                </div>
+                <div>
+                    <label for="gender">Others</label>
+                    <input type="radio"id="others"name="gender"value="others">
+                </div>
+                <div>
+                    <label for="reading">Reading</label>
+                    <input type="checkbox"id="reading"name="reading"placeholder="hobbies"required>
+                </div>
+                <div>
+                    <label for="sports">Sports</label>
+                    <input type="checkbox"id="sports"name="sports"placeholder="hobbies"required>
+                </div>
+                <div>
+                    <label for="travel">Travel</label>
+                    <input type="checkbox"id="travel"name="travel"placeholder="hobbies"required>
+                </div>
+                <div>
+                    <label for="music">Music</label>
+                    <input type="checkbox"id="music"name="music"placeholder="hobbies"required>
+                </div>
+                <div>
+                    <textarea id="comments"name="text"rows="3"cols="50"maxlength="150"></textarea>
+                </div> 
+                <div>
+                <input type="submit"value="Submit">
                 </div>
             </form>
         </body>
