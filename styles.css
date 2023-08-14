@@ -1,0 +1,20 @@
+body{
+        background-color:burlywood;
+        color:white;
+    }
+    .importance{
+        background-color:green;
+    }
+    .ul{
+        border:1px solid;
+        padding:10px;
+    }
+    .ordered-li{
+        color:brown;
+        font-weight: lighter;
+    }
+    li:hover{
+        background-color:yellow;
+        color:green;
+    }
+
